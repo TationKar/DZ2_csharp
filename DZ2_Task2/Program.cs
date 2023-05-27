@@ -8,7 +8,7 @@ Console.Write("Введите целое число: ");
 int num = int.Parse(Console.ReadLine()!);
 if (num < 100)
     Console.WriteLine("третьей цифры нет");
-else if (num < 1000 && num >100)
+else if (num < 1000 && num >= 100)
     Console.WriteLine($"Tретья цифра в числе {num} - {num % 10}");
 int intermdt = num;
 if (num > 999)
